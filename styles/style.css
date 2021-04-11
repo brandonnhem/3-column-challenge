@@ -1,7 +1,11 @@
+body {
+    font-size: 15px;
+}
+
 h1 {
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%); 
-}
+}   
 
 p {
     font-family: 'Lexend Deca', sans-serif;
@@ -38,4 +42,33 @@ p {
     content: "";
     display: table;
     clear: both;
+}
+
+.button {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 36px;
+    border-radius: 48px;
+    background: hsl(0, 0%, 95%);
+    border: 2px solid;
+    border-color: hsl(0, 0%, 95%);
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: none;
+    border: 2px solid;
+    color: hsl(0, 0%, 95%);
+}
+
+.button-first {
+    color: hsl(31, 77%, 52%);
+}
+
+.button-second {
+    color: hsl(184, 100%, 22%);
+}
+
+.button-third {
+    color: hsl(179, 100%, 13%);
 }

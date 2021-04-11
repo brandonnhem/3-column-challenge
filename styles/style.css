@@ -81,3 +81,26 @@ p {
 .button-third {
     color: hsl(179, 100%, 13%);
 }
+
+@media screen and (max-width: 375px){
+    .column {
+        width: 70%;
+    }
+
+    .column-first {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+
+    .column-third {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .row {
+        margin-top: 5%;
+        margin-left: 0;
+    }
+}

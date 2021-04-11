@@ -10,12 +10,15 @@ h1 {
 p {
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 30px;
+    text-align: left;
+    line-height: 27px;
 }
 
 .column {
     float: left;
-    width: 30%;
-    padding: 1.5rem;
+    width: 20%;
+    padding: 3rem;
 }
 
 .column-first {
@@ -36,6 +39,8 @@ p {
 
 .row {
     padding: 3rem;
+    margin: auto;
+    width: 50%;
 }
 
 .row:after {

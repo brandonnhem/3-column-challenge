@@ -4,7 +4,9 @@ body {
 
 h1 {
     font-family: 'Big Shoulders Display', cursive;
-    color: hsl(0, 0%, 95%); 
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 10px;
+    font-size: 42px;
 }   
 
 p {
@@ -39,9 +41,9 @@ p {
 
 .row {
     padding: 3rem;
-    margin: auto;
+    margin-left: 15%;
     margin-top: 10%;
-    width: 50%;
+    width: 75%;
 }
 
 .row:after {
@@ -59,6 +61,7 @@ p {
     border-color: hsl(0, 0%, 95%);
     padding: 0 30px;
     cursor: pointer;
+    margin-top: 40px;
 }
 
 .button:hover {

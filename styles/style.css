@@ -10,7 +10,8 @@ p {
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 30%;
+    padding: 1.5rem;
 }
 
 .column-first {
